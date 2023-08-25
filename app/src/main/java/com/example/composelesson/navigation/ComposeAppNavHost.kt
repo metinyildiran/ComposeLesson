@@ -12,7 +12,8 @@ fun ComposeAppNavHost(
         navController = navController,
         startDestination = mainNavigationRoute,
     ) {
-        fruitScreen()
+        fruitScreen(navController)
         mainScreen(navController)
+        fruitDetailScreen()
     }
 }

@@ -12,8 +12,8 @@ fun NavController.navigateToFruit() {
     this.navigate(fruitNavigationRoute)
 }
 
-fun NavGraphBuilder.fruitScreen() {
+fun NavGraphBuilder.fruitScreen(navController: NavController) {
     composable(route = fruitNavigationRoute) {
-        FruitScreen()
+        FruitScreen(navController)
     }
 }

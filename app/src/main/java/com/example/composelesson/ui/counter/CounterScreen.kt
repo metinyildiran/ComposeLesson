@@ -21,7 +21,7 @@ fun CounterScreen(viewModel: CounterViewModel = hiltViewModel()) {
         Text(text = "Clicked ${viewModel.counter.value} times")
 
         Button(onClick = {
-            viewModel.counter.value += 1
+            viewModel.counter.value += 1  // Side-effect
         }) {
             Text(text = "Click")
         }
