@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.example.composelesson"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.composelesson"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -79,4 +79,7 @@ dependencies {
 
     // Coil Compose
     implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.1")
 }
