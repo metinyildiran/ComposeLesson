@@ -8,7 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.example.composelesson.navigation.BookAppNavHost
+import com.example.composelesson.navigation.ComposeAppNavHost
 import com.example.composelesson.ui.theme.ComposeLessonTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    BookAppNavHost(navController = rememberNavController())
+                    ComposeAppNavHost(navController = rememberNavController())
                 }
             }
         }

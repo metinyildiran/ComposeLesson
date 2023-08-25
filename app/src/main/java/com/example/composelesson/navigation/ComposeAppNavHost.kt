@@ -5,7 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 
 @Composable
-fun BookAppNavHost(
+fun ComposeAppNavHost(
     navController: NavHostController
 ) {
     NavHost(
